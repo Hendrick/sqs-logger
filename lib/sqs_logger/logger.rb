@@ -14,7 +14,7 @@ module SqsLogger
         'path'     => env['PATH_INFO'],
         'status'   => status.to_s[0..3],
         'duration' => now - began_at,
-        'application_name' => SqsLogger.config.application_name
+        'app' => SqsLogger.config.application_name
       }
 
       @sqs_writer.write(message.to_json)
