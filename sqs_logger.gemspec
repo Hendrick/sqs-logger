@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Rack middlware for sending logs to Amazon's SQS}
   spec.description   = %q{Rack middlware for sending logs to Amazon's SQS}
-  spec.homepage      = "http://www.github.com/hendrick"
+  spec.homepage      = "http://www.github.com/hendrick/sqs-logger"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
